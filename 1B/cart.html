@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Cart</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .total {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Product 1</td>
+                <td>2</td>
+                <td>₹8,299</td>
+                <td>₹16,598</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>1</td>
+                <td>₹12,449</td>
+                <td>₹12,449</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="total">Total: ₹29,047</div>
+</body>
+</html>
+
